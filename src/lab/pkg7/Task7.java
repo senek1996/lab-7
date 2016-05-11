@@ -34,25 +34,25 @@ public class Task7 {
     
     public static int min(int a, int b) {
         if (a<b) return a;
-        else if (a==b) {System.out.print("Числа равны. "); return -1;}
+        else if (a==b) {System.out.print("Числа равны. "); return a;}
         else return b;
     }
     
     public static long min(long a, long b) {
         if (a<b) return a;
-        else if (a==b) {System.out.print("Числа равны. "); return -1;}
+        else if (a==b) {System.out.print("Числа равны. "); return a;}
         else return b;
     }
     
     public static double min(double a, double b) {
         if (a<b) return a;
-        else if (a==b) {System.out.print("Числа равны. "); return -1;}
+        else if (a==b) {System.out.print("Числа равны. "); return a;}
         else return b;
     }
     
     public static float min(float a, float b) {
         if (a<b) return a;
-        else if (a==b) {System.out.print("Числа равны. "); return -1;}
+        else if (a==b) {System.out.print("Числа равны. "); return a;}
         else return b;
     }
     

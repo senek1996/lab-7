@@ -34,25 +34,25 @@ public class Task8 {
     
     public static int max(int a, int b) {
         if (a<b) return b;
-        else if (a==b) {System.out.print("Числа равны. "); return -1;}
+        else if (a==b) {System.out.print("Числа равны. "); return a;}
         else return a;
     }
     
     public static long max(long a, long b) {
         if (a<b) return b;
-        else if (a==b) {System.out.print("Числа равны. "); return -1;}
+        else if (a==b) {System.out.print("Числа равны. "); return a;}
         else return a;
     }
     
     public static double max(double a, double b) {
         if (a<b) return b;
-        else if (a==b) {System.out.print("Числа равны. "); return -1;}
+        else if (a==b) {System.out.print("Числа равны. "); return a;}
         else return a;
     }
     
     public static float max(float a, float b) {
         if (a<b) return b;
-        else if (a==b) {System.out.print("Числа равны. "); return -1;}
+        else if (a==b) {System.out.print("Числа равны. "); return a;}
         else return a;
     }
     

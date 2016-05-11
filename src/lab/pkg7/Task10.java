@@ -48,8 +48,10 @@ abstract class Ppet {
 
 class Dogge extends Ppet {//собака
     Dogge() {
+        double d=Math.random()*101-1;
+        
         voice="\nРРРРРРРРРР-АВ-АВ";
-        hungry=(int) Math.random()*101-1;
+        hungry=(int) d;
         System.out.print("Поговори с собачкой");
         String s = readln();
     }    
@@ -57,8 +59,10 @@ class Dogge extends Ppet {//собака
 
 class PatrolDog extends Ppet {
     PatrolDog() {
+        double d=Math.random()*101-1;
+        
         voice="\nААААААРРРРРРРР-УАВ-УАВ-РРРРРРРРР";
-        hungry=(int) Math.random()*101-1;
+        hungry=(int) d;
         System.out.print("Поговори с патрульной собачкой");
         String s = readln();
     }
@@ -66,8 +70,10 @@ class PatrolDog extends Ppet {
 
 class SongShake extends Ppet {
     SongShake() {
+        double d=Math.random()*101-1;
+        
         voice="\nШ-Ш-Ш-Ш-ШАЛАВЬИ ПАЮТ, ШААЛИВАЮТСЯ";
-        hungry=(int) Math.random()*101-1;
+        hungry=(int) d;
         System.out.print("Поговори с поющей змейкой");
         String s = readln();
     }
@@ -76,7 +82,8 @@ class SongShake extends Ppet {
 class Fish extends Ppet {
     Fish() {
         voice="\nА рыбы не разговаривают((((((";
-        hungry=(int) Math.random()*101-1;
+        double d=Math.random()*101-1;
+        hungry=(int) d;
         System.out.print("Поговори с рыбкой");
         String s = readln();
     }
@@ -85,7 +92,8 @@ class Fish extends Ppet {
 class Ccat extends Ppet {
     Ccat() {
         voice="\nNONONONONO";
-        hungry=(int) Math.random()*101-1;
+        double d=Math.random()*101-1;
+        hungry=(int) d;
         System.out.print("\nПоговори с котейкой");
         String s = readln();
     }
